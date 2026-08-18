@@ -1,0 +1,88 @@
+{
+  "product_id": "FURN-ERG-CHAIR-001",
+  "product_name": "ErgoFlex Pro Mesh Office Chair",
+  "brand": "ErgoFlex Furniture Co.",
+  "model_number": "EFP-2024-PRO",
+  "category": "Office Chairs / Ergonomic",
+  "price": {
+    "msrp": 749.99,
+    "sale_price": 649.99,
+    "currency": "USD"
+  },
+  "ratings": {
+    "average": 4.7,
+    "total_reviews": 1523,
+    "breakdown": {
+      "5_star": 912,
+      "4_star": 387,
+      "3_star": 129,
+      "2_star": 61,
+      "1_star": 34
+    }
+  },
+  "specifications": {
+    "seat_dimensions": {
+      "width": "21.5 inches",
+      "depth": "18.5 inches",
+      "height_range": "17-21 inches (adjustable)"
+    },
+    "back_dimensions": {
+      "width": "20 inches",
+      "height": "24 inches"
+    },
+    "overall_dimensions": {
+      "width": "27 inches",
+      "depth": "26 inches",
+      "height_range": "40-46 inches (adjustable)"
+    },
+    "weight_capacity": "350 lbs (159 kg)",
+    "seat_height_range": "17\" - 21\"",
+    "base_material": "Polished aluminum",
+    "seat_material": "High-density molded foam with polyester mesh",
+    "back_material": "Breathable elastomeric mesh (polyester)",
+    "armrest_type": "4D adjustable (height, width, depth, pivot)",
+    "armrest_material": "Polyurethane padded",
+    "cylinder": "Class 4 gas lift (SGS certified)",
+    "casters": "65mm dual-wheel polyurethane (carpet & hard floor)",
+    "tilt_mechanism": "Synchro-tilt with tension adjustment and 3 locking positions",
+    "recline_range": "95° to 135°",
+    "headrest": "Adjustable (height, angle, depth) — removable",
+    "lumbar_support": "4-way adjustable (height, depth, side-to-side tension)"
+  },
+  "color_options": ["Black Mesh / Aluminum", "Gray Mesh / Matte Black", "Navy Mesh / Chrome"],
+  "assembly_required": true,
+  "estimated_assembly_time": "25-35 minutes",
+  "package_dimensions": "28\" x 27\" x 12\"",
+  "package_weight": "54 lbs (24.5 kg)",
+  "product_weight": "46 lbs (20.9 kg)",
+  "certifications": [
+    "BIFMA X5.1-2023",
+    "GREENGUARD Gold Certified",
+    "ANSI/BIFMA G1-2019 (GreenGuard)",
+    "California TB117-2013 (flammability)"
+  ],
+  "country_of_origin": "Taiwan",
+  "warranty": {
+    "frame": "12-year limited warranty",
+    "cushions": "5-year warranty",
+    "mechanism": "10-year warranty",
+    "gas_lift": "5-year warranty",
+    "casters": "5-year warranty"
+  },
+  "sustainability": {
+    "recycled_content": "42% post-consumer recycled materials",
+    "recyclable": "95% recyclable at end of life",
+    "packaging": "100% recyclable cardboard packaging"
+  },
+  "available_at": [
+    "ErgoFlex Direct (ergoflex.com)",
+    "Amazon",
+    "Office Depot",
+    "Staples"
+  ],
+  "last_updated": "2024-08-01T00:00:00Z",
+  "manufacturer": "ErgoFlex Furniture Co.",
+  "manufacturer_address": "1200 Industrial Pkwy, Ste 400, Dallas, TX 75207",
+  "customer_support_phone": "1-800-ERGO-01",
+  "customer_support_email": "support@ergoflex.com"
+}

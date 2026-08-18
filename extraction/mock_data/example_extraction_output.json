@@ -1,0 +1,159 @@
+{
+  "product_id": "PROD-MOCK-001",
+  "source_doc": "industrial_motor_datasheet.txt",
+  "fields": {
+    "name": {
+      "value": "SIMOTICS GP 1LE1 Series Three-Phase Induction Motor",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "title",
+      "confidence": 100,
+      "reasoning": "Product name stated clearly in the document header",
+      "conflicts": []
+    },
+    "model_number": {
+      "value": "1LE1063-4AA20",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: TECHNICAL SPECIFICATIONS",
+      "confidence": 100,
+      "reasoning": "Explicitly listed as 'Model Number'",
+      "conflicts": []
+    },
+    "power": {
+      "value": "1.5 kW (2.0 HP)",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: TECHNICAL SPECIFICATIONS",
+      "confidence": 100,
+      "reasoning": "Stated as 'Rated Power: 1.5 kW (2.0 HP)'",
+      "conflicts": []
+    },
+    "voltage": {
+      "value": "230/400 V (50 Hz) / 265/460 V (60 Hz)",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: TECHNICAL SPECIFICATIONS",
+      "confidence": 100,
+      "reasoning": "Explicitly stated voltage ratings for both frequencies",
+      "conflicts": []
+    },
+    "speed": {
+      "value": "1430 rpm",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: TECHNICAL SPECIFICATIONS",
+      "confidence": 100,
+      "reasoning": "Stated as 'Speed: 1430 rpm (4-pole)'",
+      "conflicts": []
+    },
+    "efficiency": {
+      "value": "87.0% (IE3)",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: TECHNICAL SPECIFICATIONS",
+      "confidence": 100,
+      "reasoning": "Explicitly stated efficiency class and percentage",
+      "conflicts": []
+    },
+    "insulation_class": {
+      "value": "F (155°C)",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: TECHNICAL SPECIFICATIONS",
+      "confidence": 100,
+      "reasoning": "Listed in technical specs",
+      "conflicts": []
+    },
+    "protection_degree": {
+      "value": "IP55",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: TECHNICAL SPECIFICATIONS",
+      "confidence": 95,
+      "reasoning": "Listed as IP55 with description of dust/water protection",
+      "conflicts": []
+    },
+    "dimensions": {
+      "value": "385 x 225 x 270 mm (L x W x H)",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: MECHANICAL DATA",
+      "confidence": 100,
+      "reasoning": "Individual dimensions listed and combined into standard format",
+      "conflicts": []
+    },
+    "weight": {
+      "value": "21.5 kg",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: MECHANICAL DATA",
+      "confidence": 100,
+      "reasoning": "Explicitly stated in mechanical data section",
+      "conflicts": []
+    },
+    "material": {
+      "value": "Cast iron (frame), aluminum (end shields)",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: MECHANICAL DATA",
+      "confidence": 100,
+      "reasoning": "Enclosure material explicitly stated",
+      "conflicts": []
+    },
+    "color": {
+      "value": "RAL 5010 (Gentian Blue)",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: MECHANICAL DATA",
+      "confidence": 100,
+      "reasoning": "Surface finish color explicitly specified",
+      "conflicts": []
+    },
+    "price": {
+      "value": "$487.00",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: ORDERING INFORMATION",
+      "confidence": 100,
+      "reasoning": "List price explicitly stated in USD",
+      "conflicts": []
+    },
+    "certifications": {
+      "value": ["CE Marking (EU)", "IEC 60079-1", "RoHS Compliant", "UL Listed"],
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: CERTIFICATIONS",
+      "confidence": 100,
+      "reasoning": "Multiple certifications explicitly listed",
+      "conflicts": []
+    },
+    "country_of_origin": {
+      "value": "Germany",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: ORDERING INFORMATION",
+      "confidence": 100,
+      "reasoning": "Explicitly stated in ordering section",
+      "conflicts": []
+    },
+    "manufacturer": {
+      "value": "Siemens AG",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "header",
+      "confidence": 100,
+      "reasoning": "Company name in document header",
+      "conflicts": []
+    },
+    "warranty": {
+      "value": "24 months standard, 48 months extended",
+      "source": "extracted",
+      "source_doc": "industrial_motor_datasheet.txt",
+      "source_location": "section: WARRANTY",
+      "confidence": 100,
+      "reasoning": "Warranty terms explicitly stated",
+      "conflicts": []
+    }
+  }
+}

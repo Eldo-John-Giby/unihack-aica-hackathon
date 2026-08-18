@@ -1,0 +1,66 @@
+Siemens AG — Industrial Product Datasheet
+==========================================
+Document: SIEM-DRS-2024-0847
+Revision: 3.1 | Date: 2024-06-15
+
+PRODUCT: SIMOTICS GP 1LE1 Series Three-Phase Induction Motor
+
+1. GENERAL DESCRIPTION
+The SIMOTICS GP 1LE1 is a versatile three-phase squirrel-cage induction motor
+designed for general purpose industrial applications. It meets IEC 60034-1
+standards and is suitable for direct-on-line or star-delta starting.
+
+2. TECHNICAL SPECIFICATIONS
+─────────────────────────────
+Model Number:          1LE1063-4AA20
+Rated Power:           1.5 kW (2.0 HP)
+Voltage:               230/400 V (50 Hz) / 265/460 V (60 Hz)
+Rated Current:         6.8 A at 230 V, 3.9 A at 400 V
+Speed:                 1430 rpm (4-pole)
+Frequency:             50 Hz / 60 Hz
+Power Factor (cos φ):  0.82
+Efficiency (IE3):      87.0%
+Insulation Class:      F (155°C)
+Protection Degree:     IP55 (dust-tight, protected against water jets)
+Duty Cycle:            S1 (continuous)
+Frame Size:            IEC 90L
+Mounting:              B3 (foot mounted), B35 (face + foot), B5 (face only)
+
+3. MECHANICAL DATA
+───────────────────
+Overall Dimensions (B3):
+  Length:    385 mm
+  Width:     225 mm
+  Height:    270 mm
+Shaft Height:           90 mm
+Shaft Diameter:         24 mm (keyway included)
+Weight:                 21.5 kg
+Enclosure Material:     Cast iron (frame), aluminum (end shields)
+Surface Finish:         RAL 5010 (Gentian Blue) powder coating
+
+4. OPERATING CONDITIONS
+────────────────────────
+Ambient Temperature:    -20°C to +40°C (up to +60°C with derating)
+Altitude:               Up to 1000m without derating
+Vibration:              Grade A (IEC 60034-14)
+Noise Level:            65 dB(A) at 1m
+
+5. CERTIFICATIONS
+──────────────────
+CE Marking (EU)
+IEC 60079-1 available (Ex d for explosive atmospheres — order separately)
+RoHS Compliant
+UL Listed (File No. E234567)
+
+6. ORDERING INFORMATION
+────────────────────────
+Catalog Number:         1LE1063-4AA20-0AA0
+List Price (USD):       $487.00
+Lead Time:              4-6 weeks
+Country of Origin:      Germany
+
+7. WARRANTY
+Standard 24-month warranty from date of purchase.
+Extended 48-month warranty available at time of order.
+
+For technical support: motors.support@siemens.com

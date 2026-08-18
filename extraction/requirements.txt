@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 anthropic>=0.39.0
 Pillow>=10.0.0
 pdf2image>=1.16.0
 python-docx>=0.8.11
 beautifulsoup4>=4.12.0
 markdown>=3.5
+=======
+anthropic>=0.40.0
+Pillow>=10.0.0
+python-magic>=0.4.27
+>>>>>>> f7768a8c919c9d413852c835d8d1607e8695051f

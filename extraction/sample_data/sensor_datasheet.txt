@@ -1,0 +1,81 @@
+ABB Measurement & Analytics
+Product Datasheet — Type M2001 Multi-parameter Transmitter
+Doc ID: ABB-MA-M2001-DS-EN-2024 | Rev: 2.0 | Date: 2024-03-12
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PRODUCT OVERVIEW
+The ABB Type M2001 is a compact, multi-parameter water quality transmitter
+designed for continuous inline monitoring in drinking water, wastewater, and
+industrial process applications. It accepts up to 4 sensor inputs
+simultaneously and provides Modbus RTU, HART 7, and 4-20 mA outputs.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ORDER CODE & PRICING
+Catalog Number:        M2001-AABB-02
+Base Unit Price:       EUR 1,850.00 (ex-works)
+Optional Bluetooth:    EUR 120.00 additional
+Optional Display:      EUR 340.00 additional
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PERFORMANCE SPECIFICATIONS
+Display:               4.5" color TFT LCD (optional), 480 x 320 pixels
+Inputs:                Up to 4 x ABB analog/pH/ORP/DO/turbidity/temperature sensors
+Outputs:               2 x 4-20 mA (analog), 1 x HART 7, 1 x Modbus RTU (RS-485)
+Relay Outputs:         4 x SPDT (5A / 250 VAC)
+Digital Inputs:        2 x optically isolated
+Supply Voltage:        20-30 VDC or 100-240 VAC (50/60 Hz)
+Power Consumption:     12 W max (with display), 8 W (without display)
+Isolation:             Input/output/supply galvanically isolated
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MECHANICAL SPECIFICATIONS
+Enclosure:             Polycarbonate (PC) and ABS blend
+Dimensions (H x W x D): 160 x 130 x 85 mm (without connectors)
+Depth with Connectors: 130 mm
+Weight:                0.85 kg (without sensors or cable glands)
+Mounting:              Panel mount (DIN rail clip optional)
+Panel Cutout:          138 x 138 mm (square)
+Cable Glands:          4 x M20 (IP68 rated)
+Cable Entry:           Bottom or rear entry
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENVIRONMENTAL RATINGS
+Operating Temperature: -10°C to +55°C
+Storage Temperature:   -20°C to +70°C
+Humidity:              0-95% RH, non-condensing
+Ingress Protection:    IP65 (front face), IP20 (rear with cable glands)
+Altitude:              Up to 2000 m
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CERTIFICATIONS & STANDARDS
+CE (EN 61326-1, EMC)
+FCC Part 15 Class A
+UL/cUL Listed (UL 61010-1)
+IECEx / ATEX Zone 2 (optional Ex version)
+RoHS Compliant
+REACH Compliant
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+APPROXIMATE RATINGS / FIELD PERFORMANCE
+Typical customer rating: 4.6 / 5.0 (based on 340 reviews across distributors)
+Field MTBF:              >100,000 hours (per IEC 61709)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MANUFACTURER INFORMATION
+ABB Ltd, Measurement & Analytics
+Affolternstrasse 44
+8050 Zurich, Switzerland
+Manufactured in: Finland
+
+Lead Time: 3-4 weeks
+Warranty: 12 months from delivery (standard), extendable to 36 months
+
+Contact: measurement@abb.com
