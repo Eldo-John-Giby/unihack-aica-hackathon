@@ -1,0 +1,86 @@
+{
+  "product_id": "IRFZ44N",
+  "fields": {
+    "product_name": {
+      "value": "IRFZ44N",
+      "source": "extracted",
+      "source_doc": "manufacturer_site_irfz44n.html",
+      "source_location": "product-title",
+      "confidence": 90,
+      "reasoning": "Extracted from product page title, shorter form.",
+      "conflicts": []
+    },
+    "voltage_rating_vds": {
+      "value": "55V",
+      "source": "extracted",
+      "source_doc": "manufacturer_site_irfz44n.html",
+      "source_location": "specs-table",
+      "confidence": 95,
+      "reasoning": "Listed in specifications table.",
+      "conflicts": []
+    },
+    "current_rating_id": {
+      "value": "47A",
+      "source": "extracted",
+      "source_doc": "manufacturer_site_irfz44n.html",
+      "source_location": "specs-table",
+      "confidence": 88,
+      "reasoning": "Specs table shows 47A, slightly different from datasheet.",
+      "conflicts": [
+        {
+          "value": "49A",
+          "source_doc": "datasheet_irfz44n.pdf",
+          "resolved": false
+        }
+      ]
+    },
+    "rds_on": {
+      "value": "0.022 ohm",
+      "source": "extracted",
+      "source_doc": "manufacturer_site_irfz44n.html",
+      "source_location": "specs-table",
+      "confidence": 85,
+      "reasoning": "Listed in electrical specs section.",
+      "conflicts": []
+    },
+    "package_type": {
+      "value": "TO-220AB",
+      "source": "extracted",
+      "source_doc": "manufacturer_site_irfz44n.html",
+      "source_location": "package-info",
+      "confidence": 93,
+      "reasoning": "More specific package variant listed on manufacturer site.",
+      "conflicts": [
+        {
+          "value": "TO-220",
+          "source_doc": "datasheet_irfz44n.pdf",
+          "resolved": false
+        }
+      ]
+    },
+    "gate_threshold_voltage": {
+      "value": "2V-4V",
+      "source": "extracted",
+      "source_doc": "manufacturer_site_irfz44n.html",
+      "source_location": "specs-table",
+      "confidence": 85,
+      "reasoning": "Range given instead of single value.",
+      "conflicts": [
+        {
+          "value": "4V",
+          "source_doc": "datasheet_irfz44n.pdf",
+          "resolved": false
+        }
+      ]
+    },
+    "datasheet_url": {
+      "value": "https://www.irf.com/product-info/datasheets/data/irfz44n.pdf",
+      "source": "extracted",
+      "source_doc": "manufacturer_site_irfz44n.html",
+      "source_location": "downloads-section",
+      "confidence": 95,
+      "reasoning": "Direct link to PDF datasheet.",
+      "conflicts": []
+    }
+  }
+}

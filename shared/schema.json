@@ -18,7 +18,15 @@
       "description": "Extracted product attributes. Keys are field names (e.g. name, dimensions, material, weight, rating).",
       "additionalProperties": {
         "type": "object",
-        "required": ["value", "source", "source_doc", "source_location", "confidence", "reasoning", "conflicts"],
+        "required": [
+          "value",
+          "source",
+          "source_doc",
+          "source_location",
+          "confidence",
+          "reasoning",
+          "conflicts"
+        ],
         "properties": {
           "value": {
             "description": "The extracted value for this field (any type)"
