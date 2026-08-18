@@ -1,0 +1,77 @@
+PRODUCT DATASHEET
+Industrial Precision Motor Model X200
+================================================
+
+GENERAL INFORMATION
+-------------------
+Product Name: Precision Servo Motor X200
+Manufacturer: TechDrive Industries
+Model Number: X200-PRO-400
+SKU: TD-X200-PRO-400-BLK
+Category: Industrial Motors & Drives
+
+PHYSICAL SPECIFICATIONS
+-----------------------
+Dimensions:
+  - Length: 400mm (15.75 inches)
+  - Width: 150mm (5.91 inches)
+  - Height: 150mm (5.91 inches)
+  - Weight: 8.2 kg (18.08 lbs)
+
+Housing Material: Anodized Aluminum Alloy (6061-T6)
+Shaft Material: Hardened Steel (4140 Chrome-Moly)
+Mounting: Standard NEMA 23 flange
+
+Electrical Specifications
+-------------------------
+Rated Voltage: 48V DC
+Rated Power: 400W
+Rated Speed: 3000 RPM
+Peak Torque: 1.27 Nm
+Continuous Torque: 0.64 Nm
+Encoder: 17-bit absolute encoder (131,072 counts/rev)
+
+Environmental Ratings
+---------------------
+Operating Temperature: -20°C to +60°C
+Storage Temperature: -40°C to +85°C
+IP Rating: IP65 (dust-tight, water jet protected)
+Humidity: 0-90% RH, non-condensing
+
+Certifications
+--------------
+- CE Certified (EU)
+- UL Listed (North America)
+- RoHS Compliant
+- REACH Compliant
+
+Warranty
+--------
+Standard Warranty: 3 years from date of purchase
+Extended Warranty: Available (5 years option)
+
+PACKAGING
+---------
+Included Components:
+- X200 Servo Motor unit
+- Connection cable (2m)
+- Mounting hardware kit
+- Quick start guide
+- Calibration certificate
+
+SKU Variants:
+- X200-PRO-400-BLK (Black) - $899.00
+- X200-PRO-400-SLV (Silver) - $949.00
+- X200-PRO-400-CST (Custom Color) - Contact for pricing
+
+CONTACT INFORMATION
+-------------------
+TechDrive Industries
+1234 Industrial Parkway
+San Jose, CA 95134
+Phone: (408) 555-0192
+Email: sales@techdrive-industries.com
+Web: www.techdrive-industries.com
+
+Document Revision: 3.2
+Last Updated: 2024-11-15

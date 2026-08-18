@@ -1,0 +1,86 @@
+{
+  "product_id": "IRFZ44N",
+  "fields": {
+    "product_name": {
+      "value": "IRFZ44N",
+      "source": "extracted",
+      "source_doc": "electronics_blog_review.html",
+      "source_location": "article-title",
+      "confidence": 75,
+      "reasoning": "Extracted from blog article title.",
+      "conflicts": []
+    },
+    "voltage_rating_vds": {
+      "value": "55V",
+      "source": "extracted",
+      "source_doc": "electronics_blog_review.html",
+      "source_location": "specs-paragraph",
+      "confidence": 60,
+      "reasoning": "Mentioned in review text.",
+      "conflicts": []
+    },
+    "current_rating_id": {
+      "value": "48A",
+      "source": "extracted",
+      "source_doc": "electronics_blog_review.html",
+      "source_location": "specs-paragraph",
+      "confidence": 55,
+      "reasoning": "Mentioned in review text, author may have rounded.",
+      "conflicts": [
+        {
+          "value": "49A",
+          "source_doc": "datasheet_irfz44n.pdf",
+          "resolved": false
+        },
+        {
+          "value": "47A",
+          "source_doc": "manufacturer_site_irfz44n.html",
+          "resolved": false
+        },
+        {
+          "value": "50A",
+          "source_doc": "distributor_mouser_listing.html",
+          "resolved": false
+        }
+      ]
+    },
+    "package_type": {
+      "value": "TO220",
+      "source": "extracted",
+      "source_doc": "electronics_blog_review.html",
+      "source_location": "specs-paragraph",
+      "confidence": 70,
+      "reasoning": "Mentioned without hyphen.",
+      "conflicts": []
+    },
+    "gate_threshold_voltage": {
+      "value": "3.5V",
+      "source": "extracted",
+      "source_doc": "electronics_blog_review.html",
+      "source_location": "specs-paragraph",
+      "confidence": 50,
+      "reasoning": "Author states typical Vth value.",
+      "conflicts": [
+        {
+          "value": "4V",
+          "source_doc": "datasheet_irfz44n.pdf",
+          "resolved": false
+        },
+        {
+          "value": "2V-4V",
+          "source_doc": "manufacturer_site_irfz44n.html",
+          "resolved": false
+        }
+      ]
+    },
+    "replacement_for": {
+      "value": "IRFZ48N",
+      "source": "extracted",
+      "source_doc": "electronics_blog_review.html",
+      "source_location": "comparison-section",
+      "confidence": 65,
+      "reasoning": "Blog mentions IRFZ44N as upgrade/alternative to IRFZ48N.",
+      "conflicts": []
+    }
+  }
+}

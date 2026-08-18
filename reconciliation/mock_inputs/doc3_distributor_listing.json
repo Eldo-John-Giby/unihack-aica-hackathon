@@ -1,0 +1,100 @@
+{
+  "product_id": "IRFZ44N",
+  "fields": {
+    "product_name": {
+      "value": "IRFZ44N Power MOSFET",
+      "source": "extracted",
+      "source_doc": "distributor_mouser_listing.html",
+      "source_location": "product-header",
+      "confidence": 80,
+      "reasoning": "Extracted from distributor product page header.",
+      "conflicts": []
+    },
+    "voltage_rating_vds": {
+      "value": "60V",
+      "source": "extracted",
+      "source_doc": "distributor_mouser_listing.html",
+      "source_location": "specs-section",
+      "confidence": 70,
+      "reasoning": "Distributor listing shows 60V which conflicts with datasheet.",
+      "conflicts": [
+        {
+          "value": "55V",
+          "source_doc": "datasheet_irfz44n.pdf",
+          "resolved": false
+        }
+      ]
+    },
+    "current_rating_id": {
+      "value": "50A",
+      "source": "extracted",
+      "source_doc": "distributor_mouser_listing.html",
+      "source_location": "specs-section",
+      "confidence": 65,
+      "reasoning": "Distributor shows 50A, differs from both datasheet and manufacturer.",
+      "conflicts": [
+        {
+          "value": "49A",
+          "source_doc": "datasheet_irfz44n.pdf",
+          "resolved": false
+        },
+        {
+          "value": "47A",
+          "source_doc": "manufacturer_site_irfz44n.html",
+          "resolved": false
+        }
+      ]
+    },
+    "rds_on": {
+      "value": "0.022 ohm",
+      "source": "extracted",
+      "source_doc": "distributor_mouser_listing.html",
+      "source_location": "specs-section",
+      "confidence": 75,
+      "reasoning": "Matches datasheet value.",
+      "conflicts": []
+    },
+    "package_type": {
+      "value": "TO-220",
+      "source": "extracted",
+      "source_doc": "distributor_mouser_listing.html",
+      "source_location": "specs-section",
+      "confidence": 80,
+      "reasoning": "Generic package type listed.",
+      "conflicts": []
+    },
+    "price_usd": {
+      "value": "1.23",
+      "source": "extracted",
+      "source_doc": "distributor_mouser_listing.html",
+      "source_location": "pricing-section",
+      "confidence": 90,
+      "reasoning": "Current unit price from distributor.",
+      "conflicts": []
+    },
+    "quantity_in_stock": {
+      "value": "5432",
+      "source": "extracted",
+      "source_doc": "distributor_mouser_listing.html",
+      "source_location": "inventory-section",
+      "confidence": 85,
+      "reasoning": "Stock count from distributor inventory.",
+      "conflicts": []
+    },
+    "power_dissipation": {
+      "value": "80W",
+      "source": "extracted",
+      "source_doc": "distributor_mouser_listing.html",
+      "source_location": "specs-section",
+      "confidence": 60,
+      "reasoning": "Different from datasheet value, possibly at different conditions.",
+      "conflicts": [
+        {
+          "value": "94W",
+          "source_doc": "datasheet_irfz44n.pdf",
+          "resolved": false
+        }
+      ]
+    }
+  }
+}

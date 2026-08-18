@@ -1,0 +1,97 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  PRODUCT SPECIFICATION SHEET                                ║
+║                  Grainger Item #: 5YFZ2                                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Product Name:       CRC Industrial Degreaser & Cleaner — Powerluv 5000
+Product Code:       CRC-5000-DG-500
+Manufacturer:       CRC Industries, Inc.
+                    885 Louis Drive
+                    Warminster, PA 18974, USA
+
+────────────────────────────────────────────────────────────────────────────────
+
+SECTION 1: PRODUCT IDENTIFICATION
+
+  Product Name:              Powerluv 5000 Industrial Degreaser
+  Chemical Family:           Hydrocarbon-based solvent blend
+  Formulation Type:          Non-chlorinated, low-VOC solvent
+  NFPA Rating:
+    Health:                  1
+    Fire:                    3
+    Reactivity:              0
+  HMIS Rating:               H-1, F-3, R-0, P-A
+  CAS Numbers:               Main component: CAS 64742-47-8 (Naphtha, medium)
+
+────────────────────────────────────────────────────────────────────────────────
+
+SECTION 2: PRODUCT FORM
+
+  Physical State:            Aerosol (pressurized can)
+  Color:                     Clear / Colorless
+  Odor:                      Mild hydrocarbon
+  Specific Gravity:          0.72 ± 0.02
+  Boiling Point:             150-200°C (blend range)
+  Flash Point:               -7°C (20°F) closed cup (TCC)
+  Vapor Pressure:            35 kPa at 20°C
+  VOC Content:               <350 g/L (compliant with SCAQMD Rule 1113)
+  Solubility in Water:       Practically insoluble
+
+────────────────────────────────────────────────────────────────────────────────
+
+SECTION 3: PACKAGING & SIZES
+
+  Available Sizes:
+    CRC-5000-DG-12       12 oz aerosol can     (Grainger 5YFZ3)
+    CRC-5000-DG-16       16 oz aerosol can     (Grainger 5YFZ4)
+    CRC-5000-DG-500      16.5 oz (500 mL) can  (Grainger 5YFZ2) — THIS PRODUCT
+
+  Case Pack:              12 cans per case
+  Pallet:                 72 cases per pallet (864 cans)
+  UPC Code:               082591-12345-7
+
+────────────────────────────────────────────────────────────────────────────────
+
+SECTION 4: PERFORMANCE & APPLICATION
+
+  Suitable Surfaces:       Metal, concrete, fiberglass, painted surfaces
+  Not Recommended For:     Polycarbonate, ABS, Styrofoam, rubber seals
+  Cleaning Performance:    Removes grease, oil, hydraulic fluid, brake dust,
+                           adhesive residue, wax, carbon deposits
+  Drying Time:             30-60 seconds (open air at 23°C)
+  Coverage:                Approximately 150 sq ft per 16 oz can
+  Operating Temperature:   Use between 5°C and 40°C
+
+────────────────────────────────────────────────────────────────────────────────
+
+SECTION 5: PRICING & AVAILABILITY
+
+  Unit Price (MSRP):       $8.49 per can
+  Case Price (12-pack):    $92.88 ($7.74/can)
+  Bulk (pallet):           $6,002.88 ($6.96/can)
+  Lead Time:               In stock — ships same day
+  Shelf Life:              5 years from date of manufacture
+  Storage:                 Store in cool, dry place below 49°C (120°F)
+                           Keep away from heat and open flame
+
+────────────────────────────────────────────────────────────────────────────────
+
+SECTION 6: CERTIFICATIONS
+
+  TSCA Listed (USA)
+  REACH Compliant (EU)
+  SCAQMD Rule 1113 Compliant (California)
+  NSF Registered (Category K1 — degreasing)
+  California Proposition 65: WARNING — Cancer and Reproductive Harm
+  Country of Origin:       USA
+
+────────────────────────────────────────────────────────────────────────────────
+
+SECTION 7: WARRANTY
+
+  CRC Industries warrants this product to be free from defects in materials
+  and workmanship for 24 months from date of purchase when stored and used
+  per product specifications. See CRC Industries Limited Warranty for details.
+
+  Technical Support: 1-800-272-7637
+  Website: www.crcindustries.com

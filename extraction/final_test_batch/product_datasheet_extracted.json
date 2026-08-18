@@ -1,0 +1,50 @@
+{
+  "product_id": "TEST-BATCH-001",
+  "fields": {
+    "product_name": {
+      "value": "Industrial Precision Motor X200",
+      "source": "extracted",
+      "source_doc": "product_datasheet.txt",
+      "source_location": "header section",
+      "confidence": 95,
+      "reasoning": "Found in product title",
+      "conflicts": []
+    },
+    "model_number": {
+      "value": "X200-PRO-400",
+      "source": "extracted",
+      "source_doc": "product_datasheet.txt",
+      "source_location": "general information section",
+      "confidence": 98,
+      "reasoning": "Clearly stated in specifications",
+      "conflicts": []
+    },
+    "weight": {
+      "value": "8.2 kg",
+      "source": "extracted",
+      "source_doc": "product_datasheet.txt",
+      "source_location": "physical specifications",
+      "confidence": 90,
+      "reasoning": "Found in weight specification",
+      "conflicts": []
+    },
+    "dimensions": {
+      "value": "400mm x 150mm x 150mm",
+      "source": "extracted",
+      "source_doc": "product_datasheet.txt",
+      "source_location": "physical specifications",
+      "confidence": 92,
+      "reasoning": "Extracted from dimensions table",
+      "conflicts": []
+    },
+    "material": {
+      "value": "Anodized Aluminum Alloy (6061-T6)",
+      "source": "extracted",
+      "source_doc": "product_datasheet.txt",
+      "source_location": "physical specifications",
+      "confidence": 88,
+      "reasoning": "Found in housing material specification",
+      "conflicts": []
+    }
+  }
+}

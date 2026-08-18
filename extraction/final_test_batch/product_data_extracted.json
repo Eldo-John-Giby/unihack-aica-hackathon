@@ -1,0 +1,14 @@
+{
+  "product_id": "TEST-BATCH-001",
+  "fields": {
+    "product_name": {
+      "value": "Extracted Product from product_data.json",
+      "source": "extracted",
+      "source_doc": "product_data.json",
+      "source_location": "document",
+      "confidence": 85,
+      "reasoning": "Generic extraction from document",
+      "conflicts": []
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "product_id": "IRFZ44N",
+  "fields": {
+    "product_name": {
+      "value": "IRFZ44N N-Channel MOSFET",
+      "source": "extracted",
+      "source_doc": "datasheet_irfz44n.pdf",
+      "source_location": "page 1/title",
+      "confidence": 98,
+      "reasoning": "Clearly stated in datasheet title and header.",
+      "conflicts": []
+    },
+    "voltage_rating_vds": {
+      "value": "55V",
+      "source": "extracted",
+      "source_doc": "datasheet_irfz44n.pdf",
+      "source_location": "page 1/absolute maximum ratings",
+      "confidence": 99,
+      "reasoning": "Listed in Absolute Maximum Ratings table.",
+      "conflicts": []
+    },
+    "current_rating_id": {
+      "value": "49A",
+      "source": "extracted",
+      "source_doc": "datasheet_irfz44n.pdf",
+      "source_location": "page 1/absolute maximum ratings",
+      "confidence": 99,
+      "reasoning": "Listed in Absolute Maximum Ratings table.",
+      "conflicts": []
+    },
+    "rds_on": {
+      "value": "0.022 ohm",
+      "source": "extracted",
+      "source_doc": "datasheet_irfz44n.pdf",
+      "source_location": "page 2/electrical characteristics",
+      "confidence": 95,
+      "reasoning": "Found in Electrical Characteristics table at VGS=10V.",
+      "conflicts": []
+    },
+    "package_type": {
+      "value": "TO-220",
+      "source": "extracted",
+      "source_doc": "datasheet_irfz44n.pdf",
+      "source_location": "page 1/pinout diagram",
+      "confidence": 97,
+      "reasoning": "Package type shown in pinout diagram.",
+      "conflicts": []
+    },
+    "gate_threshold_voltage": {
+      "value": "4V",
+      "source": "extracted",
+      "source_doc": "datasheet_irfz44n.pdf",
+      "source_location": "page 2/electrical characteristics",
+      "confidence": 90,
+      "reasoning": "VGS(th) listed in electrical characteristics.",
+      "conflicts": []
+    },
+    "max_operating_temp": {
+      "value": "175°C",
+      "source": "extracted",
+      "source_doc": "datasheet_irfz44n.pdf",
+      "source_location": "page 1/absolute maximum ratings",
+      "confidence": 95,
+      "reasoning": "Tj max listed in ratings table.",
+      "conflicts": []
+    },
+    "power_dissipation": {
+      "value": "94W",
+      "source": "extracted",
+      "source_doc": "datasheet_irfz44n.pdf",
+      "source_location": "page 1/absolute maximum ratings",
+      "confidence": 92,
+      "reasoning": "PD max listed in ratings table.",
+      "conflicts": []
+    }
+  }
+}
