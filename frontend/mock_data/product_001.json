@@ -1,0 +1,83 @@
+{
+  "product_id": "PROD-001",
+  "fields": {
+    "product_name": {
+      "value": "Wireless Bluetooth Headphones WH-1000XM5",
+      "source": "extracted",
+      "source_doc": "product_spec_sheet.pdf",
+      "source_location": "Page 1, Header",
+      "confidence": 98,
+      "reasoning": "Product name clearly stated in document header with high visual prominence",
+      "conflicts": []
+    },
+    "brand": {
+      "value": "Sony",
+      "source": "extracted",
+      "source_doc": "product_spec_sheet.pdf",
+      "source_location": "Page 1, Top-left logo",
+      "confidence": 99,
+      "reasoning": "Brand logo and name clearly visible in product specification sheet",
+      "conflicts": []
+    },
+    "price": {
+      "value": 349.99,
+      "source": "extracted",
+      "source_doc": "retail_listing.csv",
+      "source_location": "Row 42, Column 'Price'",
+      "confidence": 95,
+      "reasoning": "Price extracted from official retail listing CSV with consistent formatting",
+      "conflicts": [
+        {
+          "value": 329.99,
+          "source_doc": "competitor_pricing.xlsx",
+          "resolved": true
+        }
+      ]
+    },
+    "color": {
+      "value": "Black",
+      "source": "extracted",
+      "source_doc": "product_spec_sheet.pdf",
+      "source_location": "Page 2, Color Options section",
+      "confidence": 92,
+      "reasoning": "Color listed in specification options with 'Black' as primary/default option",
+      "conflicts": []
+    },
+    "weight": {
+      "value": "250g",
+      "source": "extracted",
+      "source_doc": "product_spec_sheet.pdf",
+      "source_location": "Page 3, Technical Specifications table",
+      "confidence": 97,
+      "reasoning": "Weight clearly listed in technical specifications table row",
+      "conflicts": []
+    },
+    "category": {
+      "value": "Consumer Electronics > Audio > Headphones > Over-Ear",
+      "source": "inferred",
+      "source_doc": "product_spec_sheet.pdf",
+      "source_location": "N/A (inferred from attributes)",
+      "confidence": 88,
+      "reasoning": "Category hierarchy inferred from product type (over-ear headphones), brand classification, and feature set (Bluetooth, noise cancelling)",
+      "conflicts": []
+    },
+    "target_audience": {
+      "value": "Business professionals and frequent travelers",
+      "source": "inferred",
+      "source_doc": "marketing_brief.pdf",
+      "source_location": "Page 2, Target Market section",
+      "confidence": 72,
+      "reasoning": "Inferred from marketing language emphasizing noise cancellation for travel and focus for work; brief mentions 'commuters' and 'open office workers'",
+      "conflicts": []
+    },
+    "warranty_months": {
+      "value": 24,
+      "source": "extracted",
+      "source_doc": "warranty_info.pdf",
+      "source_location": "Page 1, Warranty Terms",
+      "confidence": 96,
+      "reasoning": "Warranty period explicitly stated as '24 months manufacturer warranty'",
+      "conflicts": []
+    }
+  }
+}

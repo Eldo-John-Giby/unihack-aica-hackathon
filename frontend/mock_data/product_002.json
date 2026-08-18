@@ -1,0 +1,109 @@
+{
+  "product_id": "PROD-002",
+  "fields": {
+    "product_name": {
+      "value": "Organic Green Tea - Matcha Ceremonial Grade",
+      "source": "extracted",
+      "source_doc": "supplier_catalog.pdf",
+      "source_location": "Page 5, Item #4521",
+      "confidence": 94,
+      "reasoning": "Product name extracted from supplier catalog item listing with clear labeling",
+      "conflicts": []
+    },
+    "brand": {
+      "value": "ZenLeaf",
+      "source": "extracted",
+      "source_doc": "supplier_catalog.pdf",
+      "source_location": "Page 5, Item #4521",
+      "confidence": 90,
+      "reasoning": "Brand name extracted from catalog; slightly lower confidence due to small font size",
+      "conflicts": [
+        {
+          "value": "Zen Leaf Co.",
+          "source_doc": "brand_registry.csv",
+          "resolved": false
+        }
+      ]
+    },
+    "price": {
+      "value": 45.00,
+      "source": "extracted",
+      "source_doc": "supplier_catalog.pdf",
+      "source_location": "Page 5, Item #4521, Price column",
+      "confidence": 85,
+      "reasoning": "Price extracted from catalog; currency assumed USD based on supplier location",
+      "conflicts": []
+    },
+    "organic_certification": {
+      "value": "USDA Organic",
+      "source": "extracted",
+      "source_doc": "certification_doc.pdf",
+      "source_location": "Page 1, Certification Badge",
+      "confidence": 99,
+      "reasoning": "USDA Organic certification clearly displayed on official certificate document",
+      "conflicts": []
+    },
+    "origin_country": {
+      "value": "Japan",
+      "source": "extracted",
+      "source_doc": "supplier_catalog.pdf",
+      "source_location": "Page 5, Item #4521, Origin field",
+      "confidence": 88,
+      "reasoning": "Country of origin listed as 'Japan' in catalog product details",
+      "conflicts": [
+        {
+          "value": "China",
+          "source_doc": "shipping_manifest.xlsx",
+          "resolved": false
+        }
+      ]
+    },
+    "category": {
+      "value": "Food & Beverage > Tea > Green Tea > Matcha",
+      "source": "inferred",
+      "source_doc": "supplier_catalog.pdf",
+      "source_location": "N/A (inferred)",
+      "confidence": 82,
+      "reasoning": "Category inferred from product type (matcha), certification (organic), and product attributes",
+      "conflicts": []
+    },
+    "shelf_life_months": {
+      "value": 18,
+      "source": "inferred",
+      "source_doc": "supplier_catalog.pdf",
+      "source_location": "Page 6, Storage Notes",
+      "confidence": 65,
+      "reasoning": "Shelf life not explicitly stated; inferred from storage note 'best consumed within 18 months of production' and typical matcha shelf life",
+      "conflicts": []
+    },
+    "allergens": {
+      "value": "None",
+      "source": "extracted",
+      "source_doc": "nutritional_info.pdf",
+      "source_location": "Page 2, Allergen Statement",
+      "confidence": 93,
+      "reasoning": "Allergen statement explicitly states 'Contains: None' in allergen declaration section",
+      "conflicts": []
+    },
+    "msrp_usd": {
+      "value": 52.99,
+      "source": "extracted",
+      "source_doc": "retail_pricing.xlsx",
+      "source_location": "Sheet1, Row 89, Column F",
+      "confidence": 78,
+      "reasoning": "MSRP extracted from retail pricing spreadsheet; moderate confidence due to multiple price columns (wholesale vs retail)",
+      "conflicts": [
+        {
+          "value": 45.00,
+          "source_doc": "supplier_catalog.pdf",
+          "resolved": true
+        },
+        {
+          "value": 49.99,
+          "source_doc": "amazon_listing.json",
+          "resolved": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "product_id": "PROD-003",
+  "fields": {
+    "product_name": {
+      "value": "UltraHD 4K Monitor 27-inch IPS",
+      "source": "extracted",
+      "source_doc": "product_datasheet.pdf",
+      "source_location": "Page 1, Product Title",
+      "confidence": 96,
+      "reasoning": "Product name extracted from official datasheet title with high confidence",
+      "conflicts": []
+    },
+    "brand": {
+      "value": "DisplayTech",
+      "source": "extracted",
+      "source_doc": "product_datasheet.pdf",
+      "source_location": "Page 1, Brand Header",
+      "confidence": 97,
+      "reasoning": "Brand name clearly displayed in header section of datasheet",
+      "conflicts": []
+    },
+    "price": {
+      "value": 599.99,
+      "source": "extracted",
+      "source_doc": "wholesale_pricing.csv",
+      "source_location": "Row 156, Column 'Unit Price'",
+      "confidence": 82,
+      "reasoning": "Price from wholesale listing; may not reflect final retail price",
+      "conflicts": [
+        {
+          "value": 649.99,
+          "source_doc": "retail_listing.csv",
+          "resolved": false
+        },
+        {
+          "value": 579.99,
+          "source_doc": "promotion flyer.pdf",
+          "resolved": false
+        }
+      ]
+    },
+    "screen_size_inches": {
+      "value": 27,
+      "source": "extracted",
+      "source_doc": "product_datasheet.pdf",
+      "source_location": "Page 2, Specifications table, Row 1",
+      "confidence": 99,
+      "reasoning": "Screen size explicitly stated as '27 inches' in specifications table",
+      "conflicts": []
+    },
+    "resolution": {
+      "value": "3840 x 2160",
+      "source": "extracted",
+      "source_doc": "product_datasheet.pdf",
+      "source_location": "Page 2, Specifications table, Row 2",
+      "confidence": 99,
+      "reasoning": "Resolution clearly listed as 3840x2160 (4K UHD) in specifications",
+      "conflicts": []
+    },
+    "panel_type": {
+      "value": "IPS",
+      "source": "extracted",
+      "source_doc": "product_datasheet.pdf",
+      "source_location": "Page 2, Specifications table, Row 3",
+      "confidence": 95,
+      "reasoning": "Panel type listed as IPS in specifications",
+      "conflicts": []
+    },
+    "refresh_rate": {
+      "value": "144Hz",
+      "source": "extracted",
+      "source_doc": "product_datasheet.pdf",
+      "source_location": "Page 2, Specifications table, Row 4",
+      "confidence": 94,
+      "reasoning": "Refresh rate stated as 144Hz in specs; verified against product listing on manufacturer website",
+      "conflicts": []
+    },
+    "connectivity": {
+      "value": ["HDMI 2.1 x2", "DisplayPort 1.4 x1", "USB-C x1", "USB 3.0 Hub x4"],
+      "source": "extracted",
+      "source_doc": "product_datasheet.pdf",
+      "source_location": "Page 3, Connectivity section",
+      "confidence": 91,
+      "reasoning": "Connectivity options extracted from specifications section with detailed port info",
+      "conflicts": []
+    },
+    "category": {
+      "value": "Electronics > Computer Hardware > Monitors > 4K",
+      "source": "inferred",
+      "source_doc": "product_datasheet.pdf",
+      "source_location": "N/A (inferred)",
+      "confidence": 90,
+      "reasoning": "Category inferred from resolution (4K), screen size, and intended use case (desktop monitor)",
+      "conflicts": []
+    },
+    "energy_rating": {
+      "value": "A+",
+      "source": "inferred",
+      "source_doc": "energy_label_scan.jpg",
+      "source_location": "Energy label, top right",
+      "confidence": 55,
+      "reasoning": "Energy rating inferred from OCR scan of energy label image; low confidence due to image quality issues and potential OCR errors",
+      "conflicts": [
+        {
+          "value": "A",
+          "source_doc": "energy_label_scan.jpg",
+          "resolved": false
+        }
+      ]
+    },
+    "vesa_mount": {
+      "value": "100x100mm",
+      "source": "extracted",
+      "source_doc": "product_datasheet.pdf",
+      "source_location": "Page 4, Physical Dimensions section",
+      "confidence": 88,
+      "reasoning": "VESA mount pattern extracted from physical dimensions section",
+      "conflicts": []
+    }
+  }
+}
