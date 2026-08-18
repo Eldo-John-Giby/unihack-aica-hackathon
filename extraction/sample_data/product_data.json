@@ -1,0 +1,179 @@
+{
+  "product": {
+    "id": "LAPTOP-HP-ELITEBOOK-840-G10",
+    "name": "HP EliteBook 840 G10 Business Laptop",
+    "brand": "HP Inc.",
+    "model": "840 G10",
+    "sku": "8Y9D1UT#ABA",
+    "part_number": "8Y9D1UT",
+    "category": "Laptops > Business Laptops",
+    "subcategory": "Ultra Thin Business Laptops",
+    "upc": "196786446819",
+    "description": "The HP EliteBook 840 G10 is a premium business laptop featuring 13th Gen Intel Core processors, enterprise-grade security, and collaboration tools for modern workplaces.",
+    "release_date": "2023-09-15",
+    "country_of_origin": "China",
+    "manufacturer_warranty": "3 years",
+    "manufacturer_url": "https://www.hp.com/us-en/shop/pdp/hp-elitebook-840-g10-notebook-pc"
+  },
+  "pricing": {
+    "msrp": 1649.00,
+    "current_price": 1499.99,
+    "currency": "USD",
+    "bulk_pricing": [
+      {"quantity": 10, "price_per_unit": 1449.99},
+      {"quantity": 25, "price_per_unit": 1399.99},
+      {"quantity": 50, "price_per_unit": 1349.99}
+    ],
+    "tax_included": false,
+    "free_shipping": true
+  },
+  "specifications": {
+    "processor": {
+      "brand": "Intel",
+      "model": "Core i7-1365U",
+      "generation": "13th",
+      "cores": 10,
+      "threads": 12,
+      "base_clock": "1.8 GHz",
+      "turbo_clock": "5.2 GHz",
+      "cache": "12 MB Intel Smart Cache",
+      "tdp": "15W"
+    },
+    "memory": {
+      "capacity": "32 GB",
+      "type": "DDR5",
+      "speed": "5200 MHz",
+      "slots": 2,
+      "max_supported": "64 GB"
+    },
+    "storage": {
+      "type": "NVMe SSD",
+      "capacity": "512 GB",
+      "interface": "PCIe Gen4",
+      "read_speed": "up to 7000 MB/s",
+      "write_speed": "up to 5200 MB/s"
+    },
+    "display": {
+      "size": "14 inches",
+      "resolution": "1920 x 1200 (WUXGA)",
+      "aspect_ratio": "16:10",
+      "panel_type": "IPS LCD",
+      "touchscreen": false,
+      "brightness": "400 nits",
+      "color_gamut": "100% sRGB",
+      "anti_glare": true
+    },
+    "graphics": {
+      "integrated": "Intel Iris Xe Graphics",
+      "dedicated": null
+    },
+    "connectivity": {
+      "wifi": "Wi-Fi 6E (802.11ax)",
+      "bluetooth": "5.3",
+      "ethernet": "10/100/1000 Mbps (RJ-45)",
+      "wwan": "Optional 4G LTE"
+    },
+    "ports": [
+      {"type": "Thunderbolt 4", "count": 2},
+      {"type": "USB-C", "count": 1, "note": "With DisplayPort 1.4"},
+      {"type": "USB-A 3.2 Gen 1", "count": 2},
+      {"type": "HDMI 2.0", "count": 1},
+      {"type": "RJ-45 Ethernet", "count": 1},
+      {"type": "3.5mm headphone/microphone combo", "count": 1}
+    ],
+    "battery": {
+      "type": "Li-Polymer",
+      "capacity": "51 Wh",
+      "cells": 3,
+      "life_video_playback": "Up to 15 hours",
+      "life_mixed_use": "Up to 13 hours",
+      "fast_charging": "50% in 30 minutes"
+    },
+    "security": {
+      "tpm": "TPM 2.0",
+      "fingerprint_reader": true,
+      "ir_camera_for_windows_hello": true,
+      "smart_card_reader": "Optional",
+      "chassis_intrusion_detection": true,
+      "sure_start": "HP Sure Start Gen7",
+      "sure_view": "Optional"
+    },
+    "physical": {
+      "dimensions": {
+        "width": "12.41 inches (315.3 mm)",
+        "depth": "8.83 inches (224.4 mm)",
+        "height": "0.71 inches (17.9 mm)"
+      },
+      "weight": "Starting at 2.96 lbs (1.34 kg)",
+      "chassis_material": "Aluminum alloy",
+      "color": "Silver",
+      "ip_rating": null
+    },
+    "audio": {
+      "speakers": "Dual stereo speakers",
+      "audio_tuning": "Bang & Olufsen",
+      "microphones": "Dual array world-facing microphones",
+      "noise_cancellation": "AI-based noise cancellation"
+    },
+    "keyboard": {
+      "type": "Spill-resistant full-size",
+      "backlit": true,
+      "pointing_device": "Precision touchpad with multi-touch gestures"
+    },
+    "webcam": {
+      "resolution": "5 MP (1080p)",
+      "features": ["Auto frame", "HP Noise Cancellation", "Window Hello IR"]
+    }
+  },
+  "operating_system": {
+    "preinstalled": "Windows 11 Pro",
+    "available_options": ["Windows 11 Home", "Windows 10 Pro (downgrade)", "FreeDOS"]
+  },
+  "certifications": [
+    "MIL-STD-810H tested",
+    "Energy Star 8.0",
+    "EPEAT Gold registered",
+    "TCO Certified",
+    "RoHS compliant"
+  ],
+  "sustainability": {
+    "recycled_materials": "Contains ocean-bound plastics in speaker enclosure",
+    "packaging": "100% recyclable",
+    "energy_efficiency": "ENERGY STAR certified"
+  },
+  "reviews": {
+    "average_rating": 4.5,
+    "total_reviews": 347,
+    "rating_distribution": {
+      "5_star": 58,
+      "4_star": 28,
+      "3_star": 9,
+      "2_star": 3,
+      "1_star": 2
+    }
+  },
+  "included_accessories": [
+    "65W USB-C power adapter",
+    "Power cord",
+    "Quick start guide",
+    "Safety documentation"
+  ],
+  "optional_accessories": [
+    "HP USB-C Dock G5",
+    "HP Travel Battery",
+    "HP Active Pen G3",
+    "HP Sure View Reflect privacy screen"
+  ],
+  "support": {
+    "warranty": "3-year limited warranty",
+    "support_url": "https://support.hp.com/us-en",
+    "support_phone": "1-800-474-6836",
+    "community_forum": "https://support.hp.com/us-en/communities"
+  },
+  "metadata": {
+    "data_source": "HP Official Product Page",
+    "last_updated": "2024-11-20",
+    "data_confidence": 98,
+    "verification_status": "verified"
+  }
+}

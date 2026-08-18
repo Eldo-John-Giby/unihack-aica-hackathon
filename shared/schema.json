@@ -1,0 +1,20 @@
+{
+  "product_id": "string",
+  "fields": {
+    "<field_name>": {
+      "value": "any",
+      "source": "extracted | inferred",
+      "source_doc": "string (filename)",
+      "source_location": "page/section string",
+      "confidence": "number 0-100",
+      "reasoning": "string",
+      "conflicts": [
+        {
+          "value": "any",
+          "source_doc": "string",
+          "resolved": "boolean"
+        }
+      ]
+    }
+  }
+}

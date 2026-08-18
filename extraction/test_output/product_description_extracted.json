@@ -1,0 +1,14 @@
+{
+  "product_id": "SAMPLE-TEST-001",
+  "fields": {
+    "product_name": {
+      "value": "Extracted Product from product_description.txt",
+      "source": "extracted",
+      "source_doc": "product_description.txt",
+      "source_location": "document",
+      "confidence": 85,
+      "reasoning": "Generic extraction from document",
+      "conflicts": []
+    }
+  }
+}
